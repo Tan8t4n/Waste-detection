@@ -2,8 +2,8 @@ from ultralytics import YOLO
 import os
 from PIL import Image
 
-# Load a pre-trained YOLOv8 model (replace with your desired variant)
-model = YOLO('best.pt')  # or 'yolov8s.pt', 'yolov8m.pt', etc.
+
+model = YOLO('best.pt') 
 
 # Folder paths
 image_folder = 'dataset/images/train/plastic'

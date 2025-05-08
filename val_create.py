@@ -3,8 +3,8 @@ import shutil
 import random
 
 # ====== Cấu hình ======
-dataset_path = 'dataset'  # thư mục chứa images/ và labels/
-val_ratio = 0.25  # tỷ lệ ảnh validation
+dataset_path = 'dataset'  
+val_ratio = 0.25  
 
 # ====== Tạo thư mục val nếu chưa có ======
 val_img_path = os.path.join(dataset_path, 'images/val/paper')

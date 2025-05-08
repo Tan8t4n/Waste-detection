@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    # Load model đã huấn luyện tốt nhất trước đó
+    
     model = YOLO('best.pt')
 
-    # Train lại với dữ liệu đã mở rộng thêm
+
     model.train(
         data='data.yaml',   
         epochs=50,          
