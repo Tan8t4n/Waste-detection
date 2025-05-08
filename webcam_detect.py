@@ -21,7 +21,7 @@ while True:
         break
 
     # Dự đoán với YOLO
-    results = model.predict(source=frame, conf=0.6, save=False)
+    results = model.predict(source=frame, conf=0.7, save=False)
 
     # Kiểm tra có ít nhất một vật thể được nhận dạng không
     has_detection = False
